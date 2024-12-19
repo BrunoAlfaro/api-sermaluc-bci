@@ -19,13 +19,16 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/usuario-api.git
-   cd usuario-api
+   git clone https://github.com/BrunoAlfaro/api-sermaluc-bci.git
    ```
 
 2. Compila el proyecto:
    ```bash
    mvn clean install
+   ```
+3. Como opcional puedes solo ejecutar los TEST UNITARIOS:
+   ```bash
+   mvn test
    ```
 
 ### Ejecución
@@ -105,6 +108,11 @@ La base de datos H2 se encuentra en memoria y puede ser accedida desde:
 SELECT * FROM usuarios;
 SELECT * FROM telefonos;
 ```
+# Diagrama de la Solución
+
+El Diagrama de solución muestra las diferentes capas del proyecto y sus partes.
+
+![Diagrama de la Solución](/Diagrama_Solucion.jpg)
 
 ## Documentación Swagger
 
