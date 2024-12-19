@@ -1,0 +1,150 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.sermaluc:usuario-api >----------------------
+[INFO] Building usuario-api 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ usuario-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ usuario-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /Users/bruno/Downloads/proyecto/sermaluc2/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ usuario-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/bruno/Downloads/proyecto/sermaluc2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ usuario-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/bruno/Downloads/proyecto/sermaluc2/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ usuario-api ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.sermaluc.userapi.util.ValidationUtilTest
+10:06:50.628 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:06:50.638 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:06:50.682 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sermaluc.userapi.util.ValidationUtilTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:06:50.694 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sermaluc.userapi.util.ValidationUtilTest], using SpringBootContextLoader
+10:06:50.698 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sermaluc.userapi.util.ValidationUtilTest]: class path resource [com/sermaluc/userapi/util/ValidationUtilTest-context.xml] does not exist
+10:06:50.699 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sermaluc.userapi.util.ValidationUtilTest]: class path resource [com/sermaluc/userapi/util/ValidationUtilTestContext.groovy] does not exist
+10:06:50.699 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sermaluc.userapi.util.ValidationUtilTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:06:50.699 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sermaluc.userapi.util.ValidationUtilTest]: ValidationUtilTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:06:50.744 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sermaluc.userapi.util.ValidationUtilTest]
+10:06:50.807 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/bruno/Downloads/proyecto/sermaluc2/target/classes/com/sermaluc/userapi/UsuarioApiApplication.class]
+10:06:50.809 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sermaluc.userapi.UsuarioApiApplication for test class com.sermaluc.userapi.util.ValidationUtilTest
+10:06:50.911 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sermaluc.userapi.util.ValidationUtilTest]: using defaults.
+10:06:50.912 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:06:50.928 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b7dc788, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6304101a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5170bcf4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2812b107, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@df6620a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e31276e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1a72a540, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@27d5a580, org.springframework.test.context.event.EventPublishingTestExecutionListener@198d6542, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5e403b4a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5117dd67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5be49b60, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2931522b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7674b62c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@19e7a160]
+10:06:50.932 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5c45d770 testClass = ValidationUtilTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2ce6c6ec testClass = ValidationUtilTest, locations = '{}', classes = '{class com.sermaluc.userapi.UsuarioApiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@50caa560, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@45ca843, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@53aad5d5, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6c779568, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4da4253, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5abca1e0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.12)
+
+2024-12-19 10:06:51.250  INFO 43095 --- [           main] c.s.userapi.util.ValidationUtilTest      : Starting ValidationUtilTest using Java 17.0.13 on Brvno-MacBook-Pro.local with PID 43095 (started by bruno in /Users/bruno/Downloads/proyecto/sermaluc2)
+2024-12-19 10:06:51.251  INFO 43095 --- [           main] c.s.userapi.util.ValidationUtilTest      : No active profile set, falling back to 1 default profile: "default"
+2024-12-19 10:06:51.899  INFO 43095 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19 10:06:51.957  INFO 43095 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2024-12-19 10:06:52.456  INFO 43095 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19 10:06:52.694  INFO 43095 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19 10:06:52.884  INFO 43095 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19 10:06:52.947  INFO 43095 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-12-19 10:06:53.135  INFO 43095 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-19 10:06:53.273  INFO 43095 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-12-19 10:06:53.992  INFO 43095 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-19 10:06:54.004  INFO 43095 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19 10:06:54.628  WARN 43095 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19 10:06:54.948  INFO 43095 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-12-19 10:06:55.272  INFO 43095 --- [           main] c.s.userapi.util.ValidationUtilTest      : Started ValidationUtilTest in 4.3 seconds (JVM running for 5.337)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.971 s - in com.sermaluc.userapi.util.ValidationUtilTest
+[INFO] Running com.sermaluc.userapi.controller.UsuarioControllerTest
+2024-12-19 10:06:55.503  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sermaluc.userapi.controller.UsuarioControllerTest], using SpringBootContextLoader
+2024-12-19 10:06:55.504  INFO 43095 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sermaluc.userapi.controller.UsuarioControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-12-19 10:06:55.504  INFO 43095 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.sermaluc.userapi.controller.UsuarioControllerTest]: UsuarioControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-19 10:06:55.514  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.sermaluc.userapi.UsuarioApiApplication for test class com.sermaluc.userapi.controller.UsuarioControllerTest
+2024-12-19 10:06:55.515  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-12-19 10:06:55.516  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@277474fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5ab3f611, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@33425171, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44aa5585, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@40fd1a78, org.springframework.test.context.support.DirtiesContextTestExecutionListener@53b7f08, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24536f07, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32430075, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a45e29f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@44580de0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7b4c793b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@51a69e8f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6442cf3e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60f1f95b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@786cc1df]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.12)
+
+2024-12-19 10:06:55.543  INFO 43095 --- [           main] c.s.u.controller.UsuarioControllerTest   : Starting UsuarioControllerTest using Java 17.0.13 on Brvno-MacBook-Pro.local with PID 43095 (started by bruno in /Users/bruno/Downloads/proyecto/sermaluc2)
+2024-12-19 10:06:55.544  INFO 43095 --- [           main] c.s.u.controller.UsuarioControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-12-19 10:06:55.680  INFO 43095 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19 10:06:55.688  INFO 43095 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2024-12-19 10:06:55.858  INFO 43095 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-19 10:06:55.859  INFO 43095 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-19 10:06:55.888  INFO 43095 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19 10:06:55.892  INFO 43095 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-12-19 10:06:55.939  INFO 43095 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-19 10:06:55.939  INFO 43095 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19 10:06:56.039  WARN 43095 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19 10:06:56.236  INFO 43095 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-12-19 10:06:56.508  INFO 43095 --- [           main] c.s.u.controller.UsuarioControllerTest   : Started UsuarioControllerTest in 0.989 seconds (JVM running for 6.573)
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.015 s <<< FAILURE! - in com.sermaluc.userapi.controller.UsuarioControllerTest
+[ERROR] registerUser_ShouldReturnResponseDTO_WhenValidData  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: El ID devuelto no coincide ==> expected: <12345> but was: <null>
+	at com.sermaluc.userapi.controller.UsuarioControllerTest.registerUser_ShouldReturnResponseDTO_WhenValidData(UsuarioControllerTest.java:53)
+
+[INFO] Running com.sermaluc.userapi.service.UsuarioServiceTest
+2024-12-19 10:06:56.546  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sermaluc.userapi.service.UsuarioServiceTest], using SpringBootContextLoader
+2024-12-19 10:06:56.546  INFO 43095 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sermaluc.userapi.service.UsuarioServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-12-19 10:06:56.546  INFO 43095 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.sermaluc.userapi.service.UsuarioServiceTest]: UsuarioServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-19 10:06:56.551  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.sermaluc.userapi.UsuarioApiApplication for test class com.sermaluc.userapi.service.UsuarioServiceTest
+2024-12-19 10:06:56.552  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-12-19 10:06:56.553  INFO 43095 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d49fe37, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74ab8610, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@231c521e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@296949c8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1be3a294, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33502cfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@729d1428, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@115924ba, org.springframework.test.context.event.EventPublishingTestExecutionListener@1728d307, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@252d2ac0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f0b5619, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67afc9b6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@36ce9eaf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7a79d99c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1f27f354]
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.118 s <<< FAILURE! - in com.sermaluc.userapi.service.UsuarioServiceTest
+[ERROR] saveTestUser_ShouldSaveUserDirectly  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <67890> but was: <12345>
+	at com.sermaluc.userapi.service.UsuarioServiceTest.saveTestUser_ShouldSaveUserDirectly(UsuarioServiceTest.java:95)
+
+2024-12-19 10:06:56.680  INFO 43095 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19 10:06:56.682  INFO 43095 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19 10:06:56.685  INFO 43095 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19 10:06:56.687  INFO 43095 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19 10:06:56.688  INFO 43095 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-12-19 10:06:56.688  INFO 43095 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   UsuarioControllerTest.registerUser_ShouldReturnResponseDTO_WhenValidData:53 El ID devuelto no coincide ==> expected: <12345> but was: <null>
+[ERROR]   UsuarioServiceTest.saveTestUser_ShouldSaveUserDirectly:95 expected: <67890> but was: <12345>
+[INFO] 
+[ERROR] Tests run: 6, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.285 s
+[INFO] Finished at: 2024-12-19T10:06:57-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project usuario-api: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/bruno/Downloads/proyecto/sermaluc2/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

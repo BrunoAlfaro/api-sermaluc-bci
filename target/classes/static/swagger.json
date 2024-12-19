@@ -1,0 +1,49 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Usuario API",
+      "version": "1.0.0",
+      "description": "Documentación de la API RESTful para la gestión de usuarios."
+    },
+    "paths": {
+      "/usuarios": {
+        "get": {
+          "summary": "Obtener todos los usuarios",
+          "responses": {
+            "200": {
+              "description": "Lista de usuarios",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Usuario"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Usuario": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+  

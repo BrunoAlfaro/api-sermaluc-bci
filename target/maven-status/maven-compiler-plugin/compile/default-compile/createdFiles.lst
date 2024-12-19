@@ -1,0 +1,14 @@
+com/sermaluc/userapi/UsuarioApiApplication.class
+com/sermaluc/userapi/dto/UserDTO.class
+com/sermaluc/userapi/service/UsuarioService.class
+com/sermaluc/userapi/repository/UsuarioRepository.class
+com/sermaluc/userapi/exception/GlobalExceptionHandler.class
+com/sermaluc/userapi/util/ValidationUtil.class
+com/sermaluc/userapi/security/JwtUtil.class
+com/sermaluc/userapi/entity/Phone.class
+com/sermaluc/userapi/dto/UserResponseDTO.class
+com/sermaluc/userapi/dto/PhoneDTO.class
+com/sermaluc/userapi/controller/UsuarioController.class
+com/sermaluc/userapi/entity/User.class
+com/sermaluc/userapi/config/SwaggerConfig.class
+com/sermaluc/userapi/exception/UserAlreadyExistsException.class

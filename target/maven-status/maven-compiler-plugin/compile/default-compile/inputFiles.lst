@@ -1,0 +1,14 @@
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/dto/PhoneDTO.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/exception/GlobalExceptionHandler.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/security/JwtUtil.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/exception/UserAlreadyExistsException.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/UsuarioApiApplication.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/repository/UsuarioRepository.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/service/UsuarioService.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/util/ValidationUtil.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/controller/UsuarioController.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/entity/User.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/entity/Phone.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/dto/UserDTO.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/config/SwaggerConfig.java
+/Users/bruno/Downloads/proyecto/sermaluc2/src/main/java/com/sermaluc/userapi/dto/UserResponseDTO.java
